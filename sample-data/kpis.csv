@@ -1,0 +1,5 @@
+kpi_id,name,actual,target,unit,trend,status,source
+DEMO-KPI-001,Revenue Attainment,94,100,%,Down,Warning,Demo ERP
+DEMO-KPI-002,Collection Rate,91,90,%,Stable,Good,Demo Finance
+DEMO-KPI-003,Pipeline Conversion,18,24,%,Down,Critical,Demo CRM
+DEMO-KPI-004,Service Availability,99.8,99.5,%,Stable,Good,Demo ITSM

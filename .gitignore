@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Private/production data
+production-data/
+private/
+exports/
+real-reports/
+
+# Logs
+*.log
+logs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ToolAction",
+  "type": "object",
+  "required": ["tool_id", "action", "risk_level"],
+  "properties": {
+    "tool_id": {"type": "string"},
+    "action": {"type": "string"},
+    "risk_level": {"type": "string"},
+    "approval_required": {"type": "boolean"},
+    "parameters": {"type": "object"},
+    "status": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}

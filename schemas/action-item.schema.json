@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ActionItem",
+  "type": "object",
+  "required": ["action_id", "action"],
+  "properties": {
+    "action_id": {"type": "string"},
+    "action": {"type": "string"},
+    "owner": {"type": ["string", "null"]},
+    "due_date": {"type": ["string", "null"], "format": "date"},
+    "priority": {"type": ["string", "null"]},
+    "status": {"type": ["string", "null"]},
+    "approval_required": {"type": ["boolean", "null"]},
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1}
+  },
+  "additionalProperties": true
+}

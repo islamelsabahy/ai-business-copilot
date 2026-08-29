@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KPI",
+  "type": "object",
+  "required": ["kpi_id", "name", "actual"],
+  "properties": {
+    "kpi_id": {"type": "string"},
+    "name": {"type": "string"},
+    "actual": {"type": "number"},
+    "target": {"type": ["number", "null"]},
+    "unit": {"type": ["string", "null"]},
+    "trend": {"type": ["string", "null"]},
+    "status": {"type": ["string", "null"]},
+    "source": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}
